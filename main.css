@@ -1,0 +1,74 @@
+* {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+main{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 55rem;
+}
+
+fieldset{
+    margin: auto;
+    width: fit-content;
+}
+
+p{
+    height: 2rem;
+    font-family: monospace;
+}
+
+input{
+    float: right;
+    padding: .5rem;
+    border-style: none;
+    border-radius: 5rem;
+}
+
+label{
+    position: relative;
+    display: block;
+    float: left;
+    padding: .5rem;
+}
+
+.minmax{
+    margin: .5rem;
+    padding: .5rem;
+    width: 4rem;
+    border-radius: .5rem;
+    border-style: none;
+}
+
+
+#gissa {
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 5px;
+    border-width: 0;
+    font-family: sans-serif;
+}
+
+#submit {
+    margin: .5rem;
+    padding: .5rem;
+    width: 4rem;
+    border-radius: 1rem;
+    border-width: 0;
+    font-family: sans-serif;
+}
+
+#info {
+    margin: .5rem;
+    padding: .5rem;
+    background-color: #000;
+    font-family: monospace;
+}
