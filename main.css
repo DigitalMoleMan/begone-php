@@ -16,6 +16,10 @@ main{
     width: 55rem;
 }
 
+h1{
+    text-align: center;
+}
+
 fieldset{
     margin: auto;
     width: fit-content;

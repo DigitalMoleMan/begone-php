@@ -2,10 +2,7 @@
 session_start();
 if(isset($_POST['submit']))
 {
-    $loginCredentials = [
-        "username" => "admin",
-        "password" => password_hash("admin", PASSWORD_DEFAULT)
-    ];
+   include 'db.php';
 
     if(isset($_POST['username']) && isset($_POST['password']))
     {
